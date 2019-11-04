@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o xtrace
+# set -o xtrace
 AWS_PROFILE=thunt
 TMPFILE=/tmp/ou-tags-rule.json
 TEMPLATE=ou-tags-rule.json

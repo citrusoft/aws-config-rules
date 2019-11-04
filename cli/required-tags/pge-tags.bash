@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o xtrace
+# set -o xtrace
 AWS_PROFILE=tah
 RULENAME=pge-s3-tags
 TMPFILE=/tmp/pge-tags-rule.json

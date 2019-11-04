@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o xtrace
+# set -o xtrace
 export AWS_PROFILE=tahunt
 # export TAGS='{"tag1Key":"createdBy","tag2Key":"createDate"}'
 # export TAGS='{\"tag1Key\":\"createdBy\",\"tag2Key\":\"createDate\"}'
