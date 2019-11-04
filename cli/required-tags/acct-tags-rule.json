@@ -1,0 +1,14 @@
+{
+  "ConfigRuleName": "acct-S3-tags",
+  "Description": "Checks for required tags.",
+  "Scope": {
+    "ComplianceResourceTypes": [
+      "AWS::S3::Bucket"
+    ]
+  },
+  "Source": {
+    "Owner": "AWS",
+    "SourceIdentifier": "REQUIRED_TAGS"
+  },
+  "InputParameters": "{\"tag1Key\":\"createdBy\",\"tag2Key\":\"createDate\"}"
+}

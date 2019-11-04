@@ -1,0 +1,14 @@
+{
+  "ConfigRuleName": "ou-S3-tags",
+  "Description": "Checks for required tags.",
+  "Scope": {
+    "ComplianceResourceTypes": [
+      "AWS::S3::Bucket"
+    ]
+  },
+  "Source": {
+    "Owner": "AWS",
+    "SourceIdentifier": "REQUIRED_TAGS"
+  },
+  "InputParameters": "{\"tag1Key\":\"AppID\",\"tag2Key\":\"Order\",\"tag3Key\":\"Org\",\"tag4Key\":\"Owner\",\"tag5Key\":\"ProjectName\"}"
+}

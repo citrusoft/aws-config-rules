@@ -1,0 +1,10 @@
+{
+   "OrganizationConfigRuleName": "pge-S3-tags",
+   "OrganizationManagedRuleMetadata": { 
+      "Description": "Checks for required tags.",
+      "InputParameters": "{\"tag1Key\":\"CostCenter\",\"tag2Key\":\"Owner\"}",
+      "MaximumExecutionFrequency": "One_Hour",
+      "ResourceTypesScope": [ "AWS::S3::Bucket" ],
+      "RuleIdentifier": "REQUIRED_TAGS"
+   }
+}
